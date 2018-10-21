@@ -1,13 +1,37 @@
 
-
-//3.でwhile文より前にpromptでキー入力し、その入力した内容が'ライオン'の場合に処理を中断するように変更してください。4.で中断したときの'ライオン'の添え字もalertするように変更してください。
-var = prompt('好きな動物'+aniamals+'の中から順番に選び、入力してください');
 var animals = ['パンダ', 'ライオン', 'キリン'];
-var a = 0;
-while(a < animals.length){
-if(aniamals[a] =='ライオン'){
-    break;}
-  a++;
-}
+var i = 0;
 
-alert(animals[a]);
+
+// var animalsWeight = [{'name':'パンダ', 'weight': 80},
+//             {'name':'ライオン','weight':200},
+            // {'name':'キリン', 'weight':300}];
+var animalsWeight = {'パンダ': "80kg","ライオン":"200kg","キリン":"300kg"};
+          // var x =
+// if(answer == animalsWeight[x].name){
+//   alert(animalsWeight[x].weight);
+// }
+
+// while (i < animals.length){
+  var answer = prompt('パンダ or ライオン or キリン ?');
+  // if(answer == animals[1]){
+  //   alert(animals[1]);
+  // }else {
+  //   answer;
+  // }
+  // if(answer == "ライオン"){
+    alert(animalsWeight[answer]);
+    // console.log(animalsWeight[answer]);
+    // break;
+  // }
+
+      // i++;
+// }
+var y;
+var z = 3.14;
+function square(y){
+  var result = y*y*z
+  alert(result);
+};
+
+square(5);
