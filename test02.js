@@ -12,11 +12,20 @@
     //   // ループ内の処理
     //   alert($(this).text().lenght);
     // });
-    $('#index').find('li').each(function() {
-      // ループ内の処理
-      var thisValueLength = $(this).val().length;
-        $('.list').append(thisValueLength);
 
-    });
+    // $('#index').find('li').each(function() {
+    //   // ループ内の処理
+    //   var thisValueLength = $(this).val().length;
+    //     $('.list').append(thisValueLength);
+    //
+    // });
+
+//     $('#index').find('li').each(function(){
+//   var thisValueLength = ($(this).text().length);
+//   //alert(leng);
+//   $(this).append("(");
+//   $(this).append(thisValueLength);
+//   $(this).append(")");
+// });
   });
 })(jQuery, window);
